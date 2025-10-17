@@ -34,19 +34,6 @@ python main.py
 ### Controls
 - **ESC** or **Close Window**: Exit the program
 
-## Project Structure
-
-```
-conways-game-of-life/
-├── main.py              # Main program entry point
-├── BMPImage.py          # BMP image processing and grid initialization
-├── Color.py             # Color analysis and processing
-├── PyGameSetup.py       # Pygame display and game loop
-├── assets/              # Image assets
-│   ├── morrocan_tile.bmp
-│   └── andelus_tile.bmp
-└── README.md
-```
 
 ## How It Works
 
@@ -65,3 +52,4 @@ conways-game-of-life/
 ## Author
 
 Abu Sharif 
+
