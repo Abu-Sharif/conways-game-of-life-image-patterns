@@ -15,11 +15,16 @@ Andalusian Tilework Pattern
 
 Key Features:
 
-🖼️ Image-to-Grid Conversion: Converts BMP images into a fixed-size cellular automata grid.
+🖼️ Image-to-Grid Conversion: Converts BMP images into a fixed-size cellular automata grid. 
+
 🎨 Color-Aware Evolution: Uses dominant colors from the source image for live cells.
+
 💡 Dynamic Fading: Dead cells gradually fade, giving a painterly “dissolve” effect.
+
 ⚙️ Pure Python Implementation: Manual BMP parsing—no external image-processing libraries used.
+
 🧠 Real-Time Visualization: Interactive simulation built entirely with PyGame.
+
 🧩 Scalable & Modular: Clean separation of components (image parsing, color logic, visualization).
 
 How It Works:
