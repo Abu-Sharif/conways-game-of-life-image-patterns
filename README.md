@@ -13,8 +13,6 @@ Andalusian Tilework Pattern
 | ![Original Andalusian Tile](conways-game-of-life/assets/screenshots/andelus_tile.bmp) | ![Grid Initialization](conways-game-of-life/assets/screenshots/morrocan_orignal_pixel.png) | ![Evolved Pattern](conways-game-of-life/assets/screenshots/morrocan_50gen.png) |
 |                                                            *Imported BMP image used as the source.*                                                            |                                         *Each pixel mapped to an alive/dead cell with preserved color values.*                                        |                                           *Evolving geometry inspired by traditional Andalusian tilework.*                                           |
 
-🎞️ Full Evolution (Animated)
-
 Key Features:
 
 🖼️ Image-to-Grid Conversion: Converts BMP images into a fixed-size cellular automata grid.
@@ -35,6 +33,15 @@ How It Works:
    c. Dead cells gradually lose brightness with each generation.
 5. Rendering – Each generation is drawn in PyGame at 60 FPS, displaying a smooth, colorful evolution.
 
+Setup: 
+Install pygame:
+```bash
+pip install pygame
+```
+- Change the image file in `main.py` (line 8)
+- Adjust generation timing with `interval_time` variable
+- Modify display settings in `PyGameSetup.py`
+- ESC or Close Window: Exit the program
 
 Author:
 Abubakar Sharif
