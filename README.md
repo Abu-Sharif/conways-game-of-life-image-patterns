@@ -1,7 +1,6 @@
 Conway’s Game of Life — Image-Based Computational Art
 Exploring cellular automata with image-based art
 
-🧩 Overview
 
 This project transforms static images into evolving, colorful cellular automata using Conway’s Game of Life.
 Each image pixel becomes a cell that lives, dies, or fades over time—creating algorithmically generated art that reflects the original image’s color composition while evolving organically with each generation.
@@ -21,11 +20,7 @@ Key Features:
 
 💡 Dynamic Fading: Dead cells gradually fade, giving a painterly “dissolve” effect.
 
-⚙️ Pure Python Implementation: Manual BMP parsing—no external image-processing libraries used.
-
-🧠 Real-Time Visualization: Interactive simulation built entirely with PyGame.
-
-🧩 Scalable & Modular: Clean separation of components (image parsing, color logic, visualization).
+⚙️ Pure Python Implementation: Manual BMP parsing **no external image-processing libraries used**.
 
 How It Works:
 
